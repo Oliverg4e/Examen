@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Amazonics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        
+         <script>
+            $(document).ready(function(){
+              $('.slider').bxSlider();
+            });
+          </script>
+      
+    </head>
+    <body>
+
+        	<header class="header">
+        		<div class="container">
+        			<h1 class="logo"><a href="home.html">AMAZONICS <i class="fas fa-shopping-cart"></i></a></h1>
+                    <!--input type="text" id="search" class="form-control"placeholder="Buscar show"-->
+                    <div class="pull-left">
+                    <font size="+2">
+        			<a  style="color:black" href="carrito.html" id="btnCarro" class="carro"><i class="fas fa-shopping-cart"></i></a>
+                    <a  style="color:black" href="#" class="username"><i class="fas fa-user"></i>
+                    <a style="color:black" href="#index.html" class="logout"> <i class="fas fa-sign-out-alt"></i></a>
+                    </font>
+                    </div>
+        		</div>
+        	</header>
+           
+            <main class="main">
+                <center>
+                <div  class="cont">
+                     <div class="slider">
+                        <img src="img/oferta1.jpg" alt="">
+                        <img src="img/oferta2.jpg" alt="">
+                        <img src="img/oferta3.jpg" alt="">
+                    </div>
+                </div>
+                </center>
+            </main>
+           
+        <h1><center>Productos</center></h1>
+        
+    
+    <section class="products">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61FQfkM3EeL._SL1000_.jpg" width="200" height="300">
+            </div>
+            <button  onclick="addProducto1()" id="btn1" class="btn">Agregar al carrito</button>
+
+            <div  class="product-info">
+                <h5>Playstation 4</h5>
+                <h6>$299.99</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/xbox.png" width="200" height="300">
+            </div>
+            <button onclick="addProducto2()"  id="btn2" class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Xbox One</h5>
+                <h6>$249.99</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/bocinas.png" width="200" height="300">
+            </div>
+            <button onclick="addProducto3()"id="btn3"  class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Winter Jacket</h5>
+                <h6>$70.00</h6>
+
+              
+                 
+            </div>
+
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/laptop.png" width="200" height="300">
+            </div>
+            <button onclick="addProducto4()" id="btn4" class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Laptop HP</h5>
+                <h6>$450.00</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/mouse.png" width="200" height="300">
+            </div>
+            <button onclick="addProducto5()" id="btn5"  class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Mouse Logitech</h5>
+                <h6>$30.00</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/teclado.png" width="200" height="300">
+            </div>
+            <button onclick="addProducto6()" id="btn6" class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Teclado Logitech</h5>
+                <h6>$100.00</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/headset.png" width="200" height="300">
+            </div>
+            <button  onclick="addProducto7()" id="btn7"  class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Headset Beats</h5>
+                <h6>$150.00</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/radio.png" width="200" height="300">
+            </div>
+            <button   onclick="addProducto8()" id="btn8" class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Radio</h5>
+                <h6>$15.00</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/switch.png" width="200" height="300">
+            </div>
+            <button  onclick="addProducto9()" id="btn9"  class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Nintendo Switch</h5>
+                <h6>$299.99</h6>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/monitor.png" width="200" height="300">
+            </div>
+            <button  onclick="addProducto10()" id="btn10"  class="btn">Agregar al carrito</button>
+            <div class="product-info">
+                <h5>Monitor HP</h5>
+                <h6>$99.99</h6>
+            </div>
+        </div>
+        
+    </section>
+
+         
+           
+        <div class = "footer">
+            <div class = "colFooter">
+                <h1 class="logo"><a href="home.html">AMAZONICS <i class="fas fa-shopping-cart"></i></a></h1>
+            </div>
+            <div class = "colFooter colFooter-T">
+                Carretera al Sur KM 5.5., Apartado Postal 19-,B, C.P. 23080, La Paz Baja California Sur, México. Teléfono (612) 12 388 00
+            </div>
+            
+        </div>
+           
+          
+        <!--script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script--> 
+        <!-- <script type="text/javascript" src="Show.js"></script> -->
+        <script src="app.js"></script>
+        <script>
+            init()
+        </script>
+		
+    </body>
+</html>
